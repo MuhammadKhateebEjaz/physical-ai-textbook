@@ -1,55 +1,76 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 1.1.0 → 1.1.1
+List of modified principles: None (principles were already aligned with the request)
+Added sections: None
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md: ✅ updated (N/A for this change)
+- .specify/templates/spec-template.md: ✅ updated (N/A for this change)
+- .specify/templates/tasks-template.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.adr.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.analyze.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.checklist.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.clarify.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.constitution.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.git.commit_pr.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.implement.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.phr.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.plan.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.specify.md: ✅ updated (N/A for this change)
+- .claude/commands/sp.tasks.md: ✅ updated (N/A for this change)
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Course Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Embodied Intelligence Focus
+Prioritize understanding and implementing embodied intelligence, where agents learn and interact with their environment through physical bodies. This principle guides the design of all robotic behaviors and learning algorithms.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. High-Fidelity Simulation
+Emphasize the use of high-fidelity simulation environments for realistic testing and validation of robotic systems before real-world deployment. Simulation accuracy is critical for rapid iteration and safe experimentation.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Robust Humanoid Control
+Develop and analyze robust control systems specifically for humanoid robots, considering balance, manipulation, and bipedal locomotion. This includes exploring advanced control theory and practical implementation challenges.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. ROS2 for Reliability
+Leverage ROS2 as the primary middleware, focusing on its features for reliable, real-time, and distributed robotic applications. Ensure all modules are compatible with ROS2 communication standards for enhanced interoperability and scalability.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Comprehensive Safety Standards
+Integrate and adhere to comprehensive safety standards in both simulation and physical deployments, including ethical considerations and rigorous failure mode analysis. Safety is paramount and must be a design consideration from conception.
 
-### [PRINCIPLE_6_NAME]
+---
 
+## Technology Stack
 
-[PRINCIPLE__DESCRIPTION]
+- **Programming Languages:** Python, C++
+- **Simulation Tools:** Gazebo, Unity, Isaac Sim
+- **AI/ML Frameworks:** PyTorch, TensorFlow, OpenCV
+- **Robotics Middleware:** ROS2
+- **Version Control:** Git & GitHub
+- **CI/CD Pipeline:** Automated build, test, and deployment
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+---
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Development Workflow
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+- All contributions via **Pull Requests**
+- Peer review required before merge
+- CI/CD pipeline ensures all tests pass before deployment
+- Documentation mandatory for new features and modules
+- Feature branches follow semantic naming conventions (`feature/<name>`)
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+---
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- All changes must comply with core principles
+- Major changes require approval from project maintainers
+- Amendments to this constitution must be documented and ratified
+- Use provided guidance files for coding, testing, and documentation standards
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+---
+
+**Version**: 1.1.2 | **Ratified**: 2025-12-13 | **Last Amended**: 2025-12-17
+

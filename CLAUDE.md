@@ -1,4 +1,4 @@
-# Claude Code Rules
+<!-- # Claude Code Rules
 
 This file is generated during init for the selected agent.
 
@@ -207,4 +207,68 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 - `.specify/` — SpecKit Plus templates and scripts
 
 ## Code Standards
-See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles. -->
+
+
+
+# CLAUDE.md
+
+## Project Name
+
+**Physical AI & Humanoid Robotics**
+
+## Project Overview
+
+Yeh project ek **practical, project‑driven textbook** hai jo students ko **Physical AI, Humanoid Robotics, ROS2**, aur **AI‑based control & simulation** sikhata hai. Website **Docusaurus** par build ho rahi hai.
+
+## Objectives
+
+* Physical AI aur humanoid robotics ke core concepts samjhana
+* ROS2 ke sath robot control aur simulation
+* Vision‑Language / AI systems ka practical use
+* Step‑by‑step learning with examples
+
+## Target Audience
+
+* Undergraduate / Graduate students (AI, Robotics, Mechatronics)
+* Hobbyists & beginners
+
+## Tech Stack
+
+* **Docusaurus** (Documentation Website)
+* **Markdown (.md)**
+* **TypeScript / JavaScript**
+* **Node.js & npm**
+
+## Content Guidelines (Claude ke liye)
+
+* Simple aur clear language use karo
+* Step‑by‑step explanation do
+* Examples aur diagrams suggest karo
+* Copy‑paste mat karo, original likho
+* Headings, bullet points, aur tables use karo
+
+## Folder & Writing Rules
+
+* Docs ko logical chapters me divide karo
+* File names short aur meaningful hon
+* Code blocks properly formatted hon
+* Unnecessary complexity avoid karo
+
+## Tone & Style
+
+* Beginner‑friendly
+* Practical & educational
+* Clean, structured, readable
+
+## Do Not
+
+* Overly complex language
+* Unverified technical claims
+* Plagiarized content
+
+---
+
+**Note:** Claude ko is project me textbook‑style content generate karna hai jo students ke liye easy ho aur practically useful ho.
+
+

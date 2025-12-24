@@ -1,0 +1,28 @@
+{
+  "name": "physical-ai-textbook",
+  "version": "1.0.0",
+  "description": "Physical AI & Humanoid Robotics Textbook",
+  "main": "index.js",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy"
+  },
+  "keywords": ["docusaurus", "physical AI", "humanoid robotics"],
+  "author": "Muhammad Khateeb Ejaz",
+  "license": "ISC",
+  "dependencies": {
+    "@docusaurus/core": "^3.0.0",
+    "@docusaurus/preset-classic": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "clsx": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "@types/react": "^18.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
