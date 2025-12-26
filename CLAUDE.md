@@ -209,6 +209,14 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles. -->
 
+# Claude Instructions
+
+Read tasks.md.
+Work phase by phase.
+Continue Phase 2 from Chapter 4.
+Create real markdown content.
+Update tasks.md after completion.
+Do not skip phases.
 
 
 # CLAUDE.md

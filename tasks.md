@@ -22,10 +22,10 @@ Independent Test Criteria: Docusaurus site is initialized, navigatable, and disp
 Goal: Develop the core educational content for the textbook.
 Independent Test Criteria: All chapters are written, follow content guidelines, and are accessible via Docusaurus navigation.
 
-- [ ] T006 [US2] Design chapter outline (Beginner → Advanced) in `docs/CHAPTER_OUTLINE.md`
-- [ ] T007 [US2] Write Chapter 1: Introduction to Physical AI in `docs/chapter1.md`
-- [ ] T008 [P] [US2] Write Chapter 2: Humanoid Robotics Basics in `docs/chapter2.md`
-- [ ] T009 [P] [US2] Write Chapter 3: ROS 2 Fundamentals in `docs/chapter3.md`
+- [x ] T006 [US2] Design chapter outline (Beginner → Advanced) in `docs/CHAPTER_OUTLINE.md`
+- [x] T007 [US2] Write Chapter 1: Introduction to Physical AI in `docs/chapter1.md`
+- [x] T008 [P] [US2] Write Chapter 2: Humanoid Robotics Basics in `docs/chapter2.md`
+- [x] T009 [P] [US2] Write Chapter 3: ROS 2 Fundamentals in `docs/chapter3.md`
 - [ ] T010 [P] [US2] Write Chapter 4: Simulation with Gazebo in `docs/chapter4.md`
 - [ ] T011 [P] [US2] Write Chapter 5: Unity & NVIDIA Isaac in `docs/chapter5.md`
 - [ ] T012 [P] [US2] Write Chapter 6: Perception & Vision in `docs/chapter6.md`
