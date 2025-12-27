@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "SlashCommand(/sp.plan)",
+      "Bash(git fetch:*)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(C:\\Users\\Dell\\OneDrive\\Documents\\Desktop\\physical-ai-textbook\\.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(/c/Users/Dell/OneDrive/Documents/Desktop/physical-ai-textbook/.specify/scripts/bash/check-prerequisites.sh:*)",
+      "SlashCommand(/sp.constitution:*)",
+      "Bash(.specify/scripts/bash/create-phr.sh:*)",
+      "SlashCommand(/sp.specify:*)",
+      "Skill(sp.tasks)",
+      "Bash(mkdir:*)"
+    ]
+  }
+}
